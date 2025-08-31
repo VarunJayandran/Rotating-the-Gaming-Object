@@ -38,6 +38,27 @@ Stop
 
 ## Program:
 
+using UnityEngine;
+
+public class rotate : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.up,Vector3.right, 20 * Time.deltaTime);
+    }
+}
+
 ## Output:
 
+![alt text](<Screenshot 2025-08-31 123059.png>)
+
 ## Result:
+
+A 3D application for rotating the gaming objects in unity is developed successfully
